@@ -1,0 +1,67 @@
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    html {
+        font-size: 100%;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    html {
+        font-size: 100%;
+    }
+}
+@media only screen and (min-width: 1536px) {
+    html {
+        font-size: 100%;
+    }
+}
+@media only screen and (min-width: 1920px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+/* Header Styles */
+
+/* Home Page Styles*/
+.slider {
+    background-image: url("../src/images/vector1.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.growth-section-top {
+    background-image: url("../src/images/two_blue_stripe.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-position: 0 175%;
+}
+
+.growth-section-top h1::before {
+    content: ' " ';
+    color: #3974f7;
+}
+
+#section-bg {
+    background-image: url("../src/images/letsConnect_bg.png");
+    background-size: cover;
+}
+#subheading-bg {
+    background-image: url("../src/images/sub-heading-bg.png");
+    background-size: cover;
+}
+
+/* Footer Styles */
+
+#footer li:first-child {
+    padding-left: 0px;
+}
+
+.maps-section iframe {
+    width: 100%;
+    border: none;
+}
