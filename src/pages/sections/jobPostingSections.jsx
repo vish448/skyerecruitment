@@ -23,7 +23,6 @@ const CardStyles = styled(Card)({
 })
 
 export const JobPostingSections = ({ jobDetails }) => {
-    //const jobRelativePath = '../../jobs/';
   return (
       <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, flexWrap: { xs: 'auto', sm: 'wrap' }, flex:'auto' }}>
           {jobDetails.map(jd => (

@@ -4,10 +4,10 @@ import React, { useState } from 'react'
 
 
 const headerPages = [
-  { name: 'Services', to: '/services' },
-  { name: 'Job Seekers', to: '/jobseekers', },
-  { name: 'Referral Program', to: '/referral',  },
-  { name: 'About Us', to: '/aboutus',  },
+  { name: 'Services', to: './services' },
+  { name: 'Job Seekers', to: './jobseekers', },
+  { name: 'Referral Program', to: './referral',  },
+  { name: 'About Us', to: './aboutus',  },
 ];
 const footerPages = ['Home','Services', 'Job Seekers', 'Referral Program', 'About Us']
 
