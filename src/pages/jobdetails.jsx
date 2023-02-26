@@ -1,6 +1,6 @@
 import { Box, CardMedia, Container, Typography } from '@mui/material'
 import React from 'react'
-import { PrimaryButton, TertiaryButton } from '../components/Buttons'
+import { PrimaryButton } from '../components/Buttons'
 import { SubHeading } from '../components/SubHeading'
 import { LetsTalkSection } from './sections/homeSections'
 

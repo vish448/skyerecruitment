@@ -4,9 +4,6 @@ import { LetsTalkSection } from "./sections/homeSections"
 import { JobPostingSections } from "./sections/jobPostingSections"
 import React from 'react';
 
-const components = {
-  em: props => <i {...props} />
-}
 const subHeading = `Find a Job for you`
 const subTitle = `We offer a range of services to help you find that next opportunity. We strive to connect you with the right opportunity by understanding your skills and experience.`
 
