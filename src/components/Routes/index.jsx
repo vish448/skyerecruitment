@@ -1,5 +1,5 @@
 
-import { createBrowserRouter } from 'react-router-dom';
+import {createHashRouter } from 'react-router-dom';
 import ErrorPage from '../ErrorPage';
 import { Styleguide } from '../Styleguide';
 import Home from '../../pages/home';
@@ -15,24 +15,24 @@ import React from 'react';
 
 
 
-export const Router = createBrowserRouter([
+export const Router = createHashRouter([
     {
         path: "/",
         element: <Home />,
         errorElement:<ErrorPage />,
     },
     {
-        path: "/aboutus",
+        path: "/:aboutus",
         element: <AboutUs />,
         errorElement:<ErrorPage />,
     },
     {
-        path: "/styleguide",
+        path: "/:styleguide",
         element: <Styleguide />,
         errorElement:<ErrorPage />,
     },
     {
-        path: "/jobseekers",
+        path: "/:jobseekers",
         element: <JobSeekers />,
         errorElement:<ErrorPage />,
     },
