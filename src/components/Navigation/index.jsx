@@ -22,7 +22,7 @@ export const Headernav = ({ textColor, id }) => {
           {headerPages.map(page => (
                 <MenuItem key={page.name}>
                     <Typography color={textColor} textAlign="center" sx={{ fontFamily: "poppins", fontWeight: "600" }}>
-                <Link href={page.to} to={page.to} color="inherit" underline='none'>
+                <Link href={page.to} color="inherit" underline='none'>
                             {page.name}
                 </Link>
                     
